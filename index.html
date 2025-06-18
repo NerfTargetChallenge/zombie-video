@@ -2,25 +2,32 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title></title> <!-- Blank title removes name from browser tab -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="mobile-web-app-capable" content="yes">
   <style>
     html, body {
       margin: 0;
       padding: 0;
+      background: black;
       height: 100%;
-      background-color: black;
+      width: 100%;
       overflow: hidden;
     }
     iframe {
-      width: 100vw;
-      height: 100vh;
-      border: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+      border: 0;
+      height: 100%;
+      width: 100%;
     }
   </style>
 </head>
 <body>
   <iframe
-    src="https://www.youtube.com/embed/Uvhq_i5LxGE?autoplay=1&mute=1&controls=0&modestbranding=1&rel=0&showinfo=0&playsinline=1"
+    src="https://www.youtube.com/embed/Uvhq_i5LxGE?autoplay=1&mute=1&controls=0&modestbranding=1&rel=0&playsinline=1"
     allow="autoplay; encrypted-media"
     allowfullscreen>
   </iframe>
